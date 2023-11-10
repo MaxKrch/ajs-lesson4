@@ -15,7 +15,7 @@ test('Request with correct id', () => {
 
 	const received = getLevel(1);
 	const expected = "Ваш текущий уровень: 5"
-	expect(fetchData).toBeCalledWith('https://server/user/1');
+	expect(fetchData).toHaveBeenCalledWith('https://server/user/1');
 	expect(received).toBe(expected);
 })
 
@@ -25,6 +25,6 @@ test('Request with uncorrect id', () => {
 
 	const received = getLevel('chek');
 	const expected = "Информация об уровне временно недоступна"
-	expect(fetchData).toBeCalledWith('https://server/user/chek');
+	expect(fetchData).toHaveBeenCalledWith('https://server/user/chek');
 	expect(received).toBe(expected);
 })
