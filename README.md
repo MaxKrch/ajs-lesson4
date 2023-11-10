@@ -1,1 +1,1 @@
-Тестовый пуш
+[![Build status](https://ci.appveyor.com/api/projects/status/uxjx665pcwsf0l37?svg=true)](https://ci.appveyor.com/project/MaxKrch/ajs-lesson4)
