@@ -1,0 +1,29 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxKrch/ajs-lesson4.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxKrch/ajs-lesson4/issues"
+  },
+  "homepage": "https://github.com/MaxKrch/ajs-lesson4#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "eslint": "^8.53.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.2"
+  }
+}
